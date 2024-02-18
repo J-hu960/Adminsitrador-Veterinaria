@@ -72,7 +72,7 @@ export default function Formulario({pacientes,paciente,setPacientes,setPaciente}
           <div className="flex flex-col gap-y-2 text-green-500 ">
               <label htmlFor="mascota">Nombre Mascota</label>
               <input onChange={e =>setMascota(e.target.value)} value={mascota} 
-              className="text-black  w-full h-6" type="text" name="mascota" placeholder="Nombre de la mascota"/>
+              className="text-black  w-full h-6" type="text" name="mascota" placeholder="Nombre de la mascota."/>
   
           </div>
           <div className="text-green-500  flex flex-col gap-y-2">
@@ -83,7 +83,7 @@ export default function Formulario({pacientes,paciente,setPacientes,setPaciente}
   
           </div>
           <div className="text-green-500  flex flex-col gap-y-2">
-              <label htmlFor="Email">Email</label>
+              <label htmlFor="Email">Email.</label>
               <input
               onChange={e =>setEmail(e.target.value)} value={email} 
                className="text-black  w-full h-6" type="text" name="Email" placeholder="Email"/>
